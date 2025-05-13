@@ -31,10 +31,15 @@ function App() {
   // };
 
   return (
-    <div className={styles.calculator}>
-      <Display input={input}></Display>
-      <ButtonContainer handleClick={handleClick}></ButtonContainer>
-    </div>
+    <>
+      <h1 style={{ textAlign: "center", marginTop: 20, marginBottom: 20 }}>
+        Calculator App
+      </h1>
+      <div className={styles.calculator}>
+        <Display input={input}></Display>
+        <ButtonContainer handleClick={handleClick}></ButtonContainer>
+      </div>
+    </>
   );
 }
 
