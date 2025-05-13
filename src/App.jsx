@@ -26,9 +26,6 @@ function App() {
       setInput("Error");
     }
   };
-  // let handleClick = (value) => {
-  //   setInput((prev) => prev + value);
-  // };
 
   return (
     <>
