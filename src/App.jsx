@@ -29,7 +29,14 @@ function App() {
 
   return (
     <>
-      <h1 style={{ textAlign: "center", marginTop: 20, marginBottom: 20 }}>
+      <h1
+        style={{
+          textAlign: "center",
+          marginTop: 20,
+          marginBottom: 20,
+          backgroundColor: "pink",
+        }}
+      >
         Calculator App
       </h1>
       <div className={styles.calculator}>
